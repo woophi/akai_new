@@ -11,6 +11,7 @@
     "outDir": "./dist",
     "baseUrl": "./server",
     "incremental": true,
+    "isolatedModules": true,
     "strict": true,
     "noImplicitAny": true,
     "noImplicitThis": true,
@@ -25,14 +26,6 @@
     "**/*.ts"
   ],
   "exclude": [
-    "next-env.d.ts",
-    "**/*.tsx",
-    "node_modules/**/*",
-    "test",
-    "dist",
-    "**/*spec.ts",
-    "pages",
-    "styles",
-    "public"
+    "node_modules"
   ]
 }

@@ -8,6 +8,7 @@ import { dbConfig } from './config/db.config';
 import { integrationConfig } from './config/integration.config';
 import { vkConfig } from './config/vk.config';
 import { EventsModule } from './events/events.module';
+import { NextViewModule } from './next-view/nex-view.module';
 import { ShowTimeLibModule } from './show-time-lib/show-time-lib.module';
 import { ShowTimeModule } from './show-time/show-time.module';
 
@@ -47,6 +48,7 @@ import { ShowTimeModule } from './show-time/show-time.module';
     ShowTimeModule,
     EventsModule,
     ShowTimeLibModule,
+    NextViewModule,
   ],
   controllers: [],
   providers: [],
