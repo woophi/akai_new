@@ -9,7 +9,7 @@
     "target": "es2017",
     "sourceMap": true,
     "outDir": "./dist",
-    "baseUrl": "./",
+    "baseUrl": "./server",
     "incremental": true,
     "strict": true,
     "noImplicitAny": true,
@@ -20,5 +20,19 @@
     "importHelpers": true,
     "forceConsistentCasingInFileNames": true,
     "strictPropertyInitialization": false,
-  }
+  },
+  "include": [
+    "**/*.ts"
+  ],
+  "exclude": [
+    "next-env.d.ts",
+    "**/*.tsx",
+    "node_modules/**/*",
+    "test",
+    "dist",
+    "**/*spec.ts",
+    "pages",
+    "styles",
+    "public"
+  ]
 }
